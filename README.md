@@ -1,6 +1,6 @@
-# VerificationInputModel
+# VerificationInputModal
 
-A simple Verification Input Model
+A simple Verification Input Modal
 
 ## Acknowledgments
 
