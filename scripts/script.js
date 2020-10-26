@@ -31,12 +31,17 @@ function handlePaste(e) {
     input.value = value;
 
     // Change focus
+    if (input.nextElementSibling) {
+      input.focus();
+    }
+
     if (!input.nextElementSibling) {
       btn.focus();
     } else {
       input.focus();
     }
   });
+
 }
 
 function handleInput(e) {
